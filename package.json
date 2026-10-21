@@ -1,0 +1,14 @@
+{
+  "name": "busgo-bus-booking",
+  "version": "1.0.0",
+  "description": "BusGo - complete bus ticket booking app (Node.js + built-in SQLite, zero dependencies)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/flow.test.js",
+    "reset-db": "node -e \"require('fs').rmSync('data',{recursive:true,force:true});console.log('Database deleted. It will be re-created with demo data on next start.')\""
+  },
+  "engines": { "node": ">=22.13" },
+  "license": "MIT"
+}
