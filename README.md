@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BusGo – Bus Ticket Booking App
 
 Full-stack bus booking app: **Node.js + built-in SQLite + vanilla JS**. No npm packages, no build step.
@@ -43,3 +44,7 @@ test/         end-to-end API test
 ## Before going live
 Set `JWT_SECRET` env var, change demo passwords, serve over HTTPS (reverse proxy), integrate a real gateway,
 add email/SMS ticket delivery. The QR code library loads from cdnjs (needs internet; ticket works without it).
+=======
+# gobus
+online bus booking system
+>>>>>>> dba98ee718a7baef783dd73385667eeb603d76c6
